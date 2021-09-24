@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Employee details are saved successfully and personal information page is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-21T11:25:49 IST" name="Suite" finished-at="2021-09-21T11:28:26 IST" duration-ms="157239">
+    <groups>
+    </groups>
+    <test started-at="2021-09-21T11:25:49 IST" name="Test" finished-at="2021-09-21T11:25:49 IST" duration-ms="637">
+    </test> <!-- Test -->
+    <test started-at="2021-09-21T11:25:49 IST" name="Test_01" finished-at="2021-09-21T11:28:26 IST" duration-ms="157207">
+      <class name="com.qa.testscripts.TC_DeleteEmpRecord_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_DeleteEmpRecord_001@18df8434]" started-at="2021-09-21T11:27:21 IST" name="Setup" finished-at="2021-09-21T11:28:11 IST" duration-ms="49219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DeleteEmpRecord()[pri:0, instance:com.qa.testscripts.TC_DeleteEmpRecord_001@18df8434]" started-at="2021-09-21T11:28:11 IST" name="DeleteEmpRecord" finished-at="2021-09-21T11:28:24 IST" duration-ms="13756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_DeleteEmpRecord_001@18df8434]" started-at="2021-09-21T11:28:24 IST" name="tearDown" finished-at="2021-09-21T11:28:26 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_DeleteEmpRecord_001 -->
+      <class name="com.qa.testscripts.TC_AddMyInfo_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AddMyInfo_001@6221a451]" started-at="2021-09-21T11:25:49 IST" name="Setup" finished-at="2021-09-21T11:26:37 IST" duration-ms="47780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddMyInformation([Ljava.lang.String;)[pri:0, instance:com.qa.testscripts.TC_AddMyInfo_001@6221a451]" started-at="2021-09-21T11:26:49 IST" name="AddMyInformation" data-provider="MyInformation" finished-at="2021-09-21T11:27:18 IST" duration-ms="28913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7a26d10a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Employee details are saved successfully and personal information page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMyInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_AddMyInfo_001@6221a451]" started-at="2021-09-21T11:27:19 IST" name="tearDown" finished-at="2021-09-21T11:27:21 IST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_AddMyInfo_001 -->
+    </test> <!-- Test_01 -->
+  </suite> <!-- Suite -->
+</testng-results>
